@@ -56,25 +56,25 @@
 
         layer_1 {
             bindings = <
-&kp LC(Z)   &kp F1            &kp F2        &kp F3          &kp F4      &kp F5        &mmv MOVE_UP     &kp F6     &kp F7    &kp F8             &kp F9     &kp F10           &kp F11
-&kp LC(Y)   &kp RC(F)         &kp LC(C)     &kp UP_ARROW    &kp LC(P)   &kp MINUS     &mmv MOVE_DOWN   &kp EQUAL  &mkp MB4  &kp K_SCROLL_UP    &mkp MB5   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE         &kp LEFT      &kp DOWN_ARROW  &kp RIGHT   &kp HOME      &mmv MOVE_LEFT   &kp END    &kp LEFT  &kp K_SCROLL_DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp K_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP    &kp K_PREV  &kp C_NEXT    &mmv MOVE_RIGHT  &trans     &trans    &trans             &trans     &trans            &trans
-&kp C_MUTE  &trans            &trans        &trans          &trans      &trans        &mkp LCLK        &trans     &trans    &trans             &trans     &trans
+&kp LC(Z)   &kp F1            &kp F2        &kp F3          &kp F4      &kp F5        &mmv MOVE_UP     &kp F6       &kp F7    &kp F8             &kp F9  &kp F10           &kp F11
+&kp LC(Y)   &kp RC(F)         &kp LC(C)     &kp UP_ARROW    &kp LC(P)   &kp MINUS     &mmv MOVE_DOWN   &mkp MB4     &mkp MB5  &kp K_SCROLL_UP    &trans  &kp MINUS         &kp EQUAL
+&trans      &kp TILDE         &kp LEFT      &kp DOWN_ARROW  &kp RIGHT   &kp HOME      &mmv MOVE_LEFT   &mkp MB1     &mkp MB2  &kp K_SCROLL_DOWN  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp K_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP    &kp K_PREV  &kp C_NEXT    &mmv MOVE_RIGHT  &kp LG(TAB)  &trans    &trans             &trans  &trans            &trans
+&kp C_MUTE  &trans            &trans        &trans          &trans      &trans        &mkp MB3         &trans       &trans    &trans             &trans  &trans
             >;
 
             display-name = "Nav";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(EQUAL)>;
         };
 
         layer_3 {
             display-name = "Func";
             bindings = <
-&kp LC(Z)   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4          &bt BT_CLR
-&kp LC(Y)   &kp RC(F)        &kp LC(C)       &kp UP_ARROW     &kp LC(P)        &kp MINUS          &mmv MOVE_DOWN   &kp EQUAL        &mkp MB4         &kp K_SCROLL_UP    &mkp MB5      &kp C_BRIGHTNESS_INC  &trans
-&trans      &kp TILDE        &kp LEFT        &kp DOWN_ARROW   &kp RIGHT        &kp HOME           &mmv MOVE_LEFT   &kp END          &kp LEFT         &kp K_SCROLL_DOWN  &kp RIGHT     &kp C_BRIGHTNESS_DEC  &trans
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &kp INSERT         &kp F11       &trans                &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans             &trans        &trans
+&kp LC(Z)   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5              &mmv MOVE_UP     &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4          &bt BT_CLR
+&kp LC(Y)   &kp RC(F)        &kp LC(C)       &kp UP_ARROW     &kp LC(P)        &kp MINUS           &mmv MOVE_DOWN   &kp EQUAL          &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &kp C_BRIGHTNESS_INC  &trans
+&sys_reset  &kp TILDE        &kp LEFT        &kp DOWN_ARROW   &kp RIGHT        &kp HOME            &mmv MOVE_LEFT   &kp END            &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp C_BRIGHTNESS_DEC  &trans
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp LEFT_BRACKET    &mmv MOVE_RIGHT  &kp RIGHT_BRACKET  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI       &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans              &mkp LCLK        &trans             &trans           &trans           &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
