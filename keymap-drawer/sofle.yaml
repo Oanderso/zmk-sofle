@@ -36,7 +36,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - D
   - H
-  - K
+  - T
   - N
   - S
   - Func
@@ -192,7 +192,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: RGB TOG, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
