@@ -83,7 +83,7 @@ layers:
   - Ctl+ F
   - Ctl+ C
   - $$mdi:arrow-up-bold$$
-  - Ctl+ P
+  - Ctl+ V
   - {t: '-', s: _}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&mkp MB4'
