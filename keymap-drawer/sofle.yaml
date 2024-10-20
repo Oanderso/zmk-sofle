@@ -39,7 +39,7 @@ layers:
   - K
   - N
   - S
-  - '2'
+  - Func
   - $$mdi:apple-keyboard-control$$
   - {t: ;, s: ':'}
   - Q
@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - '2'
+  - Func
   - PRINTSCREEN
   - Gui+ $$mdi:keyboard-tab$$
   Nav:
@@ -156,7 +156,7 @@ layers:
   - RGB SAI
   - RGB SPI
   - $$mdi:brightness-5$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '~'
   - $$mdi:arrow-left-bold$$
@@ -169,12 +169,12 @@ layers:
   - RGB SAD
   - RGB SPD
   - $$mdi:brightness-7$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
   - RGB EFF
-  - RGB EFR
+  - '~'
   - {t: '[', s: '{'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: ']', s: '}'}
@@ -192,7 +192,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
@@ -234,7 +234,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
-  - {t: '}', type: held}
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -257,6 +257,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
