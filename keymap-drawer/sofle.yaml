@@ -178,7 +178,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: ']', s: '}'}
-  - RGB BRD
+  - RGB TOG
   - RGB EFF
   - RGB HUD
   - RGB HUI
