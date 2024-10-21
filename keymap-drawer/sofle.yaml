@@ -151,11 +151,11 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - RGB SAI
+  - RGB SAI
+  - RGB SPI
+  - $$mdi:brightness-5$$
   - {t: \, s: '|'}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
