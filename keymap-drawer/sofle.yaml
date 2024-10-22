@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - Ctl+ Z
   - $$mdi:keyboard-tab$$
   - {t: '''', s: '"'}
   - {t: ',', s: <}
@@ -169,7 +169,7 @@ layers:
   - RGB SAD
   - RGB SPD
   - $$mdi:brightness-7$$
-  - {t: '`', s: '~', type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
