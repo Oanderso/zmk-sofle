@@ -152,7 +152,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '=', s: +}
-  - RGB SAI
+  - RGB BRI
   - RGB SAI
   - RGB SPI
   - $$mdi:brightness-5$$
