@@ -84,7 +84,7 @@ layers:
   - Ctl+ C
   - $$mdi:arrow-up-bold$$
   - Ctl+ V
-  - AC SCROLL UP
+  - {t: Ctl+ =, s: Ctl+ +}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&mkp MB4'
   - '&mkp MB5'
@@ -97,7 +97,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - AC SCROLL DOWN
+  - {t: Ctl+ -, s: Ctl+ _}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '&mkp MB1'
   - '&mkp MB2'
@@ -145,13 +145,13 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - Ctl+ Y
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - {t: '5', s: '%'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '=', s: +}
   - RGB SAI
   - RGB SAI
   - RGB SPI
@@ -162,9 +162,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:brightness-5$$
+  - END
   - RGB BRD
   - RGB SAD
   - RGB SPD
@@ -175,9 +175,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:brightness-7$$
+  - {t: ']', s: '}'}
   - RGB TOG
   - RGB EFF
   - RGB HUD
