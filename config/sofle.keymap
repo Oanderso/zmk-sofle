@@ -42,7 +42,7 @@
 
         Base {
             bindings = <
-&kp ESC           &kp N1         &kp N2        &kp N3      &kp N4     &kp N5           &kp UP_ARROW     &kp N6     &kp N7           &kp N8  &kp N9           &kp N0       &kp BACKSPACE
+&kp ESC           &kp N1         &kp N2        &kp N3      &kp N4     &kp N5           &kp UP_ARROW     &kp N6     &kp N7           &kp N8  &kp N9           &kp N0       &kp RC(Z)
 &kp TAB           &kp SQT        &kp COMMA     &kp PERIOD  &kp P      &kp Y            &kp DOWN_ARROW   &kp F      &kp G            &kp C   &kp R            &kp L        &kp SLASH
 &kp CAPS          &kp A          &kp O         &kp E       &kp U      &kp I            &kp LEFT_ARROW   &kp D      &kp H            &kp T   &kp N            &kp S        &mo 2
 &kp LCTRL         &kp SEMICOLON  &kp Q         &kp J       &kp K      &kp X            &kp RIGHT_ARROW  &kp B      &kp M            &kp W   &kp V            &kp Z        &kp DELETE
@@ -71,7 +71,7 @@
             bindings = <
 &kp LC(Z)   &kp F1  &kp F2  &kp F3  &kp F4  &kp F5              &mmv MOVE_UP     &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4          &bt BT_CLR
 &kp LC(Y)   &trans  &trans  &trans  &trans  &kp MINUS           &mmv MOVE_DOWN   &kp EQUAL          &rgb_ug RGB_SAI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &kp C_BRI_UP          &kp BACKSLASH
-&sys_reset  &trans  &trans  &trans  &trans  &kp HOME            &mmv MOVE_LEFT   &kp END            &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp C_BRIGHTNESS_DEC  &kp GRAVE
+&sys_reset  &trans  &trans  &trans  &trans  &kp HOME            &mmv MOVE_LEFT   &kp END            &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp C_BRIGHTNESS_DEC  &trans
 &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACKET    &mmv MOVE_RIGHT  &kp RIGHT_BRACKET  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI       &trans
 &kp C_MUTE  &trans  &trans  &trans  &trans  &trans              &mkp LCLK        &trans             &trans           &trans           &trans           &trans
             >;
