@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  'Base ':
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -39,7 +39,7 @@ layers:
   - T
   - N
   - S
-  - '2'
+  - Util
   - $$mdi:apple-keyboard-control$$
   - {t: ;, s: ':'}
   - Q
@@ -56,7 +56,7 @@ layers:
   - PLAY
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: layer1, h: toggle}
+  - Nav
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&mkp MB3'
@@ -65,7 +65,7 @@ layers:
   - '&mkp MB3'
   - PRINTSCREEN
   - $$mdi:backspace-reverse-outline$$
-  layer1:
+  Nav:
   - Ctl+Z
   - F1
   - F2
@@ -80,10 +80,10 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Y
-  - F
-  - C
+  - Ctl+F
+  - Ctl+C
   - $$mdi:arrow-up-bold$$
-  - V
+  - Ctl+V
   - {t: Ctl+=, s: Ctl++}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
@@ -93,7 +93,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -121,7 +121,7 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -130,8 +130,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
-  - '~'
+  Util:
+  - $$mdi:progress-download$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
