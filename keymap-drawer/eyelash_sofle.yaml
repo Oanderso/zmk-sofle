@@ -154,8 +154,8 @@ layers:
   - {t: '=', s: +}
   - RGB BRI
   - RGB HUI
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SAI
+  - RGB SPI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -167,8 +167,8 @@ layers:
   - END
   - RGB BRD
   - RGB HUD
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SAD
+  - RGB SPD
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -180,7 +180,7 @@ layers:
   - {t: ']', s: '}'}
   - RGB TOG
   - RGB EFF
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
