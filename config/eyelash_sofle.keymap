@@ -55,11 +55,11 @@
 
         layer_1 {
             bindings = <
-&kp LC(Z)   &kp F1            &kp F2        &kp F3        &kp F4          &kp F5           &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&kp LC(Y)   &kp LC(F)         &kp LC(C)     &kp UP        &kp RC(V)       &kp LC(EQUAL)    &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &trans            &kp LEFT      &kp DOWN      &kp RIGHT       &kp LC(MINUS)    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp C_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREVIOUS  &kp C_NEXT       &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans            &trans        &trans        &trans          &trans           &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp LC(Z)   &kp F1     &kp F2     &kp F3    &kp F4     &kp F5           &msc SCRL_UP     &kp F6           &kp F7           &kp F8        &kp F9      &kp F10           &trans
+&kp LC(Y)   &kp LC(F)  &kp LC(C)  &kp UP    &kp RC(V)  &kp LC(EQUAL)    &msc SCRL_DOWN   &kp PG_UP        &kp END          &kp UP        &kp HOME    &kp MINUS         &kp EQUAL
+&trans      &trans     &kp LEFT   &kp DOWN  &kp RIGHT  &kp LC(MINUS)    &msc SCRL_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN      &kp RIGHT   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &mkp MB4   &mkp MB3   &mkp MB1  &mkp MB2   &mkp MB5         &msc SCRL_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp C_VOL_DN  &kp C_PLAY  &kp C_VOL_UP      &trans
+&kp C_MUTE  &trans     &trans     &trans    &trans     &trans           &mkp MB3         &trans           &trans           &trans        &trans      &trans
             >;
 
             display-name = "Nav";
