@@ -42,11 +42,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1         &kp N2        &kp N3      &kp N4     &kp N5           &kp RC(EQUAL)  &kp N6     &kp N7           &kp N8    &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB     &kp SQT        &kp COMMA     &kp PERIOD  &kp P      &kp Y            &kp RC(MINUS)  &kp F      &kp G            &kp C     &kp R            &kp L       &kp SLASH
-&kp CAPS    &kp A          &kp O         &kp E       &kp U      &kp I            &mkp MB4       &kp D      &kp H            &kp T     &kp N            &kp S       &mo 2
-&kp RCTRL   &kp SEMICOLON  &kp Q         &kp J       &kp K      &kp X            &mkp MB5       &kp B      &kp M            &kp W     &kp V            &kp Z       &kp RG(TAB)
-&kp C_PLAY  &kp LEFT_ALT   &kp LEFT_GUI  &mo 1       &kp SPACE  &kp BACKSPACE    &mkp MB3       &kp ENTER  &kp RIGHT_SHIFT  &mkp MB3  &kp PRINTSCREEN  &kp DELETE
+&kp ESC     &kp N1         &kp N2        &kp N3      &kp N4     &kp N5           &msc SCRL_UP     &kp N6     &kp N7           &kp N8    &kp N9           &kp N0       &kp BACKSPACE
+&kp TAB     &kp SQT        &kp COMMA     &kp PERIOD  &kp P      &kp Y            &msc SCRL_DOWN   &kp F      &kp G            &kp C     &kp R            &kp L        &kp SLASH
+&kp CAPS    &kp A          &kp O         &kp E       &kp U      &kp I            &msc SCRL_LEFT   &kp D      &kp H            &kp T     &kp N            &kp S        &mo 2
+&kp RCTRL   &kp SEMICOLON  &kp Q         &kp J       &kp K      &kp X            &msc SCRL_RIGHT  &kp B      &kp M            &kp W     &kp V            &kp Z        &kp RG(DELETE)
+&kp C_PLAY  &kp LEFT_ALT   &kp LEFT_GUI  &mo 1       &kp SPACE  &kp BACKSPACE    &mkp MB3         &kp ENTER  &kp RIGHT_SHIFT  &mkp MB3  &kp PRINTSCREEN  &kp RG(TAB)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -55,11 +55,11 @@
 
         layer_1 {
             bindings = <
-&kp LC(Z)   &kp F1     &kp F2     &kp F3    &kp F4     &kp F5           &msc SCRL_UP     &kp F6           &kp F7           &kp F8        &kp F9      &kp F10           &trans
-&kp LC(Y)   &kp LC(F)  &kp LC(C)  &kp UP    &kp RC(V)  &kp LC(EQUAL)    &msc SCRL_DOWN   &kp PG_UP        &kp END          &kp UP        &kp HOME    &kp MINUS         &kp EQUAL
-&trans      &trans     &kp LEFT   &kp DOWN  &kp RIGHT  &kp LC(MINUS)    &msc SCRL_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN      &kp RIGHT   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &mkp MB4   &mkp MB3   &mkp MB1  &mkp MB2   &mkp MB5         &msc SCRL_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp C_VOL_DN  &kp C_PLAY  &kp C_VOL_UP      &trans
-&kp C_MUTE  &trans     &trans     &trans    &trans     &trans           &mkp MB3         &trans           &trans           &trans        &trans      &trans
+&kp LC(Z)   &kp F1     &kp F2    &kp F3     &kp F4         &kp F5                  &kp C_VOLUME_UP   &kp F6           &kp F7           &kp F8        &kp F9      &kp F10           &trans
+&kp LC(Y)   &kp LC(C)  &kp UP    &kp LC(V)  &kp LC(EQUAL)  &kp C_BRIGHTNESS_INC    &kp C_VOL_DN      &kp PG_UP        &kp END          &kp UP        &kp HOME    &kp MINUS         &kp EQUAL
+&kp LC(F)   &kp LEFT   &kp DOWN  &kp RIGHT  &kp LC(MINUS)  &kp C_BRI_DEC           &kp C_PREV        &kp PG_DN        &kp LEFT         &kp DOWN      &kp RIGHT   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &mkp MB3   &mkp MB1  &mkp MB2   &mkp MB4       &mkp MB5                &kp C_NEXT        &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp C_VOL_DN  &kp C_PLAY  &kp C_VOL_UP      &trans
+&kp C_MUTE  &trans     &trans    &trans     &trans         &trans                  &kp C_PLAY_PAUSE  &trans           &trans           &trans        &trans      &trans
             >;
 
             display-name = "Nav";
@@ -68,11 +68,11 @@
 
         Util {
             bindings = <
-&bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4        &mmv MOVE_UP     &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &bt BT_CLR
-&trans       &trans        &trans        &trans        &trans        &kp MINUS           &mmv MOVE_DOWN   &kp EQUAL          &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &trans
-&trans       &trans        &trans        &trans        &trans        &kp HOME            &mmv MOVE_LEFT   &kp END            &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans
-&trans       &trans        &trans        &trans        &trans        &kp LEFT_BRACKET    &mmv MOVE_RIGHT  &kp RIGHT_BRACKET  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans           &trans
-&trans       &trans        &trans        &trans        &trans        &trans              &mkp LCLK        &trans             &trans           &trans           &trans           &trans
+&bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4        &kp C_VOLUME_UP    &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &bt BT_CLR
+&trans       &trans        &trans        &trans        &trans        &kp LEFT_BRACKET    &kp C_VOLUME_DOWN  &kp RIGHT_BRACKET  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &trans
+&trans       &trans        &trans        &trans        &trans        &kp MINUS           &kp K_PREV         &kp PLUS           &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans
+&trans       &trans        &trans        &trans        &trans        &kp HOME            &kp K_NEXT         &kp END            &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans           &trans
+&trans       &trans        &trans        &trans        &trans        &trans              &kp C_PLAY_PAUSE   &trans             &trans           &trans           &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
