@@ -84,9 +84,9 @@ layers:
   - $$mdi:arrow-up-bold$$
   - Ctl+V
   - {t: Ctl+=, s: Ctl++}
-  - $$mdi:brightness-5$$
+  - $$mdi:pan-up$$
   - $$mdi:volume-low$$
-  - PG UP
+  - $$mdi:brightness-5$$
   - END
   - $$mdi:arrow-up-bold$$
   - HOME
@@ -97,9 +97,9 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: Ctl+-, s: Ctl+_}
-  - $$mdi:brightness-7$$
+  - $$mdi:pan-down$$
   - $$mdi:skip-previous$$
-  - PG DN
+  - $$mdi:brightness-7$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
